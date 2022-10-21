@@ -1,0 +1,16 @@
+import React, { Component } from 'react';
+
+class Title extends Component {
+  render() {
+    const { headline } = this.props;
+    return (
+      <div>
+        <h2 headline>
+          { headline }
+        </h2>
+      </div>
+    );
+  }
+}
+
+export default Title;
