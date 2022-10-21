@@ -7,6 +7,7 @@ class Title extends Component {
     return (
       <div>
         <h2 headline>
+          <p>Missões</p>
           { headline }
         </h2>
       </div>
