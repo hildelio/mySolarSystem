@@ -1,7 +1,7 @@
 * {
   color: white;
-  text-align: center;
   font-family: Epilogue , sans-serif;
+  text-align: center;
 }
 
 html {
@@ -9,12 +9,10 @@ html {
 }
 
 header {
-  height: 242.72px;
-  width: 425.69px;
-  
   border: 1px solid white;
   border-radius: 50%;
   height: 80px;
+  width: 425.69px;
   margin: 160px auto 0;
   transform: rotate(-40deg);
   width: 220px;
@@ -33,33 +31,30 @@ h1 {
 
 .solar-system {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
 h2 {
-  width: 179px;
   height: 60px;
-  left: 553px;
-  top: 444px;
-
+  width: 179px;
   font-style: normal;
-  font-weight: 300;
   font-size: 40px;
+  font-weight: 300;
   line-height: 150%;
-  text-align: center;
   align-self: center;
-  text-transform: uppercase;
+  text-align: center;
   padding: 20%;
+  text-transform: uppercase;
 }
 
 .planet-card-content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2%;
+  justify-content: center;
   margin: 2%;
+  padding: 2%;
 }
 
 .planet-card:nth-of-type(1) img {
@@ -83,8 +78,8 @@ h2 {
 }
 
 .planet-card:nth-of-type(6) img {
-  width: 282.41px;
   transform: rotate(-16.53deg);
+  width: 282.41px;
 }
 
 .planet-card:nth-of-type(7) img {
@@ -92,8 +87,8 @@ h2 {
 }
 
 .planet-card:nth-of-type(8) img {
-  width: 144px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 144px;
 }
 
 .missions {
@@ -128,7 +123,7 @@ h2 {
   top: 784px;
 }
 
-.missions p:nth-of-type(1) {
+.missions p:nth-of-type( 1 ) {
   border-bottom: 1px solid white;
   font-style: normal;
   font-weight: 300;
