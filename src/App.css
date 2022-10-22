@@ -1,19 +1,17 @@
 * {
+  color: white;
   text-align: center;
-  color: #ffffff;
-  font-family: Epilogue, sans-serif;
+  font-family: Epilogue , sans-serif;
 }
 
 html {
-  background: url(./images/background.png);
+  background: url('./images/background.png');
 }
 
 header {
-  width: 425.69px;
   height: 242.72px;
-  left: 461.8px;
-  top: 41.94px;
-
+  width: 425.69px;
+  
   border: 1px solid white;
   border-radius: 50%;
   height: 80px;
