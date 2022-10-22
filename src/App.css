@@ -37,12 +37,12 @@ h1 {
 
 h2 {
   font-size: 40px;
-  height: 60px;
-  font-style: normal;
   align-self: center;
+  font-style: normal;
+  height: 60px;
   font-weight: 300;
-  width: 179px;
   line-height: 150%;
+  width: 179px;
   padding: 20%;
   text-align: center;
   text-transform: uppercase;
