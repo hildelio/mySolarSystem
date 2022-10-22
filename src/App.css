@@ -36,12 +36,12 @@ h1 {
 }
 
 h2 {
-  height: 60px;
   font-size: 40px;
+  height: 60px;
   font-style: normal;
-  width: 179px;
-  font-weight: 300;
   align-self: center;
+  font-weight: 300;
+  width: 179px;
   line-height: 150%;
   padding: 20%;
   text-align: center;
