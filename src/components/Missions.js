@@ -6,8 +6,8 @@ import missions from '../data/missions';
 class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
-        <Title />
+      <div data-testid="missions" className="missions">
+        <Title headline="Missões" />
         {
           missions && missions.map((allMissions) => (<MissionCard
             key={ allMissions.name }
